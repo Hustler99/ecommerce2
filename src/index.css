@@ -1,0 +1,140 @@
+body {
+  font-family: "Roboto", sans-serif;
+
+}
+
+.cartIcon {
+  font-size: 23px;
+  color: #1bb21b;
+}
+.badger {
+  left: 80px !important;
+  top: 7px !important;
+  background-color: rgba(0, 0, 0, 0.775) !important;
+  color: rgb(252, 252, 252);
+}
+.badger2 {
+  left: 103px !important;
+  top: 7px !important;
+  background-color: rgba(0, 0, 0, 0.775) !important;
+  color: rgb(252, 252, 252);
+}
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap");
+:root {
+  --main-color: #0aad0a;
+  --light-color: #f0f3f2;
+  --shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+    rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+    rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+  --font-family: "Encode Sans Expanded", sans-serif;
+  --rating-color: #ffc908;
+}
+
+body {
+  font-family: var(--font-family) !important;
+}
+.rating-color {
+  color: var(--rating-color);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+a,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+.product:hover {
+  box-shadow: var(--shadow);
+  border: solid 1px var(--main-color);
+}
+.product .btn {
+  transition: transform 1s, opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+.product:hover .btn {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.font-sm {
+  font-size: 14px;
+}
+.text-main {
+  color: var(--main-color);
+}
+.bg-main {
+  background-color: var(--main-color) !important;
+}
+.bg-main-light {
+  background-color: var(--light-color) !important;
+}
+.navbar-nav .nav-link.active{
+   color: #0aad0a;
+   font-weight: bolder;
+}
+.signout{
+  background-color: var(--main-color) !important;
+  color: #ffc908;
+  border-radius: 40px;
+}
+.signout:hover{
+  background-color: #ffc908 !important;
+  color: var(--main-color) !important;
+  font-weight: bolder;
+}
+.doksh {
+  transition: all 1.5s;
+}
+.brdr {
+  border: 1px solid #0aad0a;
+}
+.dude1 {
+  position: relative;
+  font-size: 50px;
+  opacity: 0.2;
+  color: rgba(0, 0, 0, 0.416);
+  font-weight: 800;
+}
+.dude2 {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 800;
+  color: #0aad0a;
+  margin-top: 8px;
+  font-style: bolder;
+
+}
+.hover1:hover img {
+ transform: scale(1.1);
+}
+.hover1:hover{
+  box-shadow: -1px 1px 14px -4px rgba(10,173,10,1);
+
+}
+.hover1{
+  transition: all 1s;
+  text-align: center;
+  color: #0aad0aa3;
+  font-weight: 600;
+  font-style: bolder;
+  cursor: pointer;
+}
+.over {
+  overflow: hidden;
+}
+.hova:hover {
+  box-shadow: -1px 1px 14px -4px rgba(10,173,10,1);
+
+}
+.hova {
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer {
+  height: 30vh;
+  background-color: var(--light-color) !important;
+
+}
+
